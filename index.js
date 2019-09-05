@@ -1,2 +1,2 @@
 // Write your solution in this file!
-const driver = Object.new()
+const driver = {};
