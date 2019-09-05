@@ -2,9 +2,8 @@
 const driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  console.log("test");
   updatedDriver = driver;
-  updatedDriver.key = value;
+  updatedDriver[key] = value;
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
